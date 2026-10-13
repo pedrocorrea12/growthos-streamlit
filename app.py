@@ -15,6 +15,10 @@ st.set_page_config(page_title="GrowthOS | Marketing Analytics", layout="wide")
 st.markdown(
     """
 <style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+html, body, .stApp, .stApp :is(p, span, label, div, h1, h2, h3, li, td, th, a, button, input, textarea):not([data-testid="stIconMaterial"]) {font-family:'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;}
+div[data-testid="stMetricValue"], div[data-testid="stMetricValue"] * {font-family:'IBM Plex Mono', monospace !important; letter-spacing:-.02em;}
+div[data-testid="stMetricDelta"] * {font-family:'IBM Plex Mono', monospace !important;}
 .block-container {padding-top: 3rem; padding-bottom: 1rem; max-width: 100%;}
 header[data-testid="stHeader"] {height: 0;}
 div[data-testid="stMetric"] {background:#121212; border:1px solid #2a2a2a; padding:10px 12px; border-radius:0;}
@@ -64,7 +68,7 @@ def delta(cur, prev):
 def style(fig, h=300, legend=True):
     fig.update_layout(
         template="plotly_dark", height=h, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-        margin=dict(l=8, r=8, t=8, b=8), font=dict(size=11, color="#cfcfcf"), showlegend=legend,
+        margin=dict(l=8, r=8, t=8, b=8), font=dict(family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif", size=11, color="#cfcfcf"), showlegend=legend,
         legend=dict(orientation="h", y=1.12, x=0, font=dict(size=10)), colorway=COLORS,
     )
     fig.update_xaxes(gridcolor="#1f1f1f", zeroline=False)
