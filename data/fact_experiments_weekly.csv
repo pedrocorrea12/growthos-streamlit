@@ -1,0 +1,109 @@
+experiment_week_id,experiment_id,experiment,week_start_date_id,channel_id,campaign_id,region_id,experiment_group,period,visitors,orders,net_revenue,media_spend
+1,1,Geo Lift Meta Prospecting,20250106,2,4,4,Teste,Pré,2536,80,19021.61,0
+2,1,Geo Lift Meta Prospecting,20250106,2,4,5,Controle,Pré,2332,75,16954.25,0
+3,1,Geo Lift Meta Prospecting,20250113,2,4,4,Teste,Pré,2509,73,18448.41,0
+4,1,Geo Lift Meta Prospecting,20250113,2,4,5,Controle,Pré,2110,67,16096.83,0
+5,1,Geo Lift Meta Prospecting,20250120,2,4,4,Teste,Pré,2401,80,19038.43,0
+6,1,Geo Lift Meta Prospecting,20250120,2,4,5,Controle,Pré,2587,78,19830.05,0
+7,1,Geo Lift Meta Prospecting,20250127,2,4,4,Teste,Pré,2561,74,18789.92,0
+8,1,Geo Lift Meta Prospecting,20250127,2,4,5,Controle,Pré,2488,78,19525.83,0
+9,1,Geo Lift Meta Prospecting,20250203,2,4,4,Teste,Pós,2375,85,20376.16,5943.96
+10,1,Geo Lift Meta Prospecting,20250203,2,4,5,Controle,Pós,2284,72,17700.38,0
+11,1,Geo Lift Meta Prospecting,20250210,2,4,4,Teste,Pós,2355,85,18870.16,6168.7
+12,1,Geo Lift Meta Prospecting,20250210,2,4,5,Controle,Pós,2484,79,20080.61,0
+13,1,Geo Lift Meta Prospecting,20250217,2,4,4,Teste,Pós,2616,86,20391.45,5843.16
+14,1,Geo Lift Meta Prospecting,20250217,2,4,5,Controle,Pós,2136,66,16294.41,0
+15,1,Geo Lift Meta Prospecting,20250224,2,4,4,Teste,Pós,2156,75,18885.99,5682.48
+16,1,Geo Lift Meta Prospecting,20250224,2,4,5,Controle,Pós,2492,82,19934.22,0
+17,1,Geo Lift Meta Prospecting,20250303,2,4,4,Teste,Pós,2256,81,18054.74,6712.54
+18,1,Geo Lift Meta Prospecting,20250303,2,4,5,Controle,Pós,2518,78,19654.57,0
+19,1,Geo Lift Meta Prospecting,20250310,2,4,4,Teste,Pós,2381,82,18753.52,5925.87
+20,1,Geo Lift Meta Prospecting,20250310,2,4,5,Controle,Pós,2643,78,17965.82,0
+21,1,Geo Lift Meta Prospecting,20250317,2,4,4,Teste,Pós,2691,91,21222.27,6576.9
+22,1,Geo Lift Meta Prospecting,20250317,2,4,5,Controle,Pós,2238,70,16086.58,0
+23,1,Geo Lift Meta Prospecting,20250324,2,4,4,Teste,Pós,2415,84,20760.39,6625.96
+24,1,Geo Lift Meta Prospecting,20250324,2,4,5,Controle,Pós,2580,85,19933.27,0
+25,1,Geo Lift Meta Prospecting,20250331,2,4,4,Teste,Pós,2423,85,20270.23,6140.2
+26,1,Geo Lift Meta Prospecting,20250331,2,4,5,Controle,Pós,2723,85,18967.18,0
+27,1,Geo Lift Meta Prospecting,20250407,2,4,4,Teste,Pós,2491,87,21966.08,6569.25
+28,1,Geo Lift Meta Prospecting,20250407,2,4,5,Controle,Pós,2631,85,20152.08,0
+29,2,Geo Lift Google Shopping,20250407,1,3,7,Teste,Pré,2243,67,16811.8,0
+30,2,Geo Lift Google Shopping,20250407,1,3,8,Controle,Pré,2565,86,21218.46,0
+31,2,Geo Lift Google Shopping,20250414,1,3,7,Teste,Pré,2019,66,16019.22,0
+32,2,Geo Lift Google Shopping,20250414,1,3,8,Controle,Pré,2106,66,14724.6,0
+33,2,Geo Lift Google Shopping,20250421,1,3,7,Teste,Pré,2397,75,17233.13,0
+34,2,Geo Lift Google Shopping,20250421,1,3,8,Controle,Pré,2563,76,18290.93,0
+35,2,Geo Lift Google Shopping,20250428,1,3,7,Teste,Pré,2219,71,15773.93,0
+36,2,Geo Lift Google Shopping,20250428,1,3,8,Controle,Pré,2321,70,16336.08,0
+37,2,Geo Lift Google Shopping,20250505,1,3,7,Teste,Pós,2510,79,17644.94,6198.97
+38,2,Geo Lift Google Shopping,20250505,1,3,8,Controle,Pós,2468,74,16475.79,0
+39,2,Geo Lift Google Shopping,20250512,1,3,7,Teste,Pós,2139,71,15860.58,5685.25
+40,2,Geo Lift Google Shopping,20250512,1,3,8,Controle,Pós,2054,64,14781.82,0
+41,2,Geo Lift Google Shopping,20250519,1,3,7,Teste,Pós,2593,81,20481.36,6142.56
+42,2,Geo Lift Google Shopping,20250519,1,3,8,Controle,Pós,2062,64,15714.47,0
+43,2,Geo Lift Google Shopping,20250526,1,3,7,Teste,Pós,2144,78,17788.99,6858.89
+44,2,Geo Lift Google Shopping,20250526,1,3,8,Controle,Pós,2599,87,21457.96,0
+45,2,Geo Lift Google Shopping,20250602,1,3,7,Teste,Pós,2453,78,18011.59,6404.04
+46,2,Geo Lift Google Shopping,20250602,1,3,8,Controle,Pós,2049,60,14091.75,0
+47,2,Geo Lift Google Shopping,20250609,1,3,7,Teste,Pós,2579,86,21653.56,6420.22
+48,2,Geo Lift Google Shopping,20250609,1,3,8,Controle,Pós,2633,86,19424.44,0
+49,2,Geo Lift Google Shopping,20250616,1,3,7,Teste,Pós,2255,80,20153.99,6025.89
+50,2,Geo Lift Google Shopping,20250616,1,3,8,Controle,Pós,2207,71,17634.43,0
+51,2,Geo Lift Google Shopping,20250623,1,3,7,Teste,Pós,2385,77,18210.73,6602.09
+52,2,Geo Lift Google Shopping,20250623,1,3,8,Controle,Pós,2609,78,18715.32,0
+53,3,Retail Media Incremental,20250707,8,16,2,Teste,Pré,2130,65,14514.19,0
+54,3,Retail Media Incremental,20250707,8,16,1,Controle,Pré,2597,80,19250.95,0
+55,3,Retail Media Incremental,20250714,8,16,2,Teste,Pré,2527,73,16290.93,0
+56,3,Retail Media Incremental,20250714,8,16,1,Controle,Pré,2019,63,15515.83,0
+57,3,Retail Media Incremental,20250721,8,16,2,Teste,Pré,2550,83,20179.46,0
+58,3,Retail Media Incremental,20250721,8,16,1,Controle,Pré,2093,60,14662.61,0
+59,3,Retail Media Incremental,20250728,8,16,2,Teste,Pré,2370,73,16454.22,0
+60,3,Retail Media Incremental,20250728,8,16,1,Controle,Pré,2065,63,15941.57,0
+61,3,Retail Media Incremental,20250804,8,16,2,Teste,Pós,2302,77,18850.84,5579.47
+62,3,Retail Media Incremental,20250804,8,16,1,Controle,Pós,2235,70,15957.08,0
+63,3,Retail Media Incremental,20250811,8,16,2,Teste,Pós,2494,87,20368.4,6523.37
+64,3,Retail Media Incremental,20250811,8,16,1,Controle,Pós,2553,79,19431.34,0
+65,3,Retail Media Incremental,20250818,8,16,2,Teste,Pós,2181,74,18706.36,6923.91
+66,3,Retail Media Incremental,20250818,8,16,1,Controle,Pós,2548,84,19039.12,0
+67,3,Retail Media Incremental,20250825,8,16,2,Teste,Pós,2500,95,24030.88,5530.5
+68,3,Retail Media Incremental,20250825,8,16,1,Controle,Pós,2581,77,18495.63,0
+69,3,Retail Media Incremental,20250901,8,16,2,Teste,Pós,2077,79,17786.33,6148.68
+70,3,Retail Media Incremental,20250901,8,16,1,Controle,Pós,2604,81,19420.12,0
+71,3,Retail Media Incremental,20250908,8,16,2,Teste,Pós,2516,93,23479.69,5555.88
+72,3,Retail Media Incremental,20250908,8,16,1,Controle,Pós,2601,83,21126.89,0
+73,3,Retail Media Incremental,20250915,8,16,2,Teste,Pós,2225,86,21392.47,6338.22
+74,3,Retail Media Incremental,20250915,8,16,1,Controle,Pós,2375,77,17277.04,0
+75,3,Retail Media Incremental,20250922,8,16,2,Teste,Pós,2569,98,24768.05,6101.44
+76,3,Retail Media Incremental,20250922,8,16,1,Controle,Pós,2559,83,20587.67,0
+77,3,Retail Media Incremental,20250929,8,16,2,Teste,Pós,2246,79,18328.77,6162.09
+78,3,Retail Media Incremental,20250929,8,16,1,Controle,Pós,2546,83,19577.31,0
+79,3,Retail Media Incremental,20251006,8,16,2,Teste,Pós,2478,95,24081.66,5864.9
+80,3,Retail Media Incremental,20251006,8,16,1,Controle,Pós,2158,69,17498.41,0
+81,3,Retail Media Incremental,20251013,8,16,2,Teste,Pós,2289,88,21411.74,6192.83
+82,3,Retail Media Incremental,20251013,8,16,1,Controle,Pós,2473,81,19812.29,0
+83,3,Retail Media Incremental,20251020,8,16,2,Teste,Pós,2431,88,20773.08,5947.88
+84,3,Retail Media Incremental,20251020,8,16,1,Controle,Pós,2720,86,20394.65,0
+85,4,CRM Reativação,20250908,6,13,3,Teste,Pré,2271,69,16551.71,0
+86,4,CRM Reativação,20250908,6,13,12,Controle,Pré,2354,72,16754.68,0
+87,4,CRM Reativação,20250915,6,13,3,Teste,Pré,2346,76,17685.33,0
+88,4,CRM Reativação,20250915,6,13,12,Controle,Pré,2250,71,17310.34,0
+89,4,CRM Reativação,20250922,6,13,3,Teste,Pré,2131,65,16303.71,0
+90,4,CRM Reativação,20250922,6,13,12,Controle,Pré,2272,71,17700.18,0
+91,4,CRM Reativação,20250929,6,13,3,Teste,Pré,2019,62,15787.03,0
+92,4,CRM Reativação,20250929,6,13,12,Controle,Pré,2036,59,14957.91,0
+93,4,CRM Reativação,20251006,6,13,3,Teste,Pós,2347,77,18716.35,6490.92
+94,4,CRM Reativação,20251006,6,13,12,Controle,Pós,2205,69,17334.14,0
+95,4,CRM Reativação,20251013,6,13,3,Teste,Pós,2518,86,19104.27,5506.45
+96,4,CRM Reativação,20251013,6,13,12,Controle,Pós,2107,64,16094.66,0
+97,4,CRM Reativação,20251020,6,13,3,Teste,Pós,2604,93,22887,6731
+98,4,CRM Reativação,20251020,6,13,12,Controle,Pós,2051,68,15700.56,0
+99,4,CRM Reativação,20251027,6,13,3,Teste,Pós,2340,75,18145.28,6440.18
+100,4,CRM Reativação,20251027,6,13,12,Controle,Pós,2281,68,16109.67,0
+101,4,CRM Reativação,20251103,6,13,3,Teste,Pós,2443,82,19220.27,6938.09
+102,4,CRM Reativação,20251103,6,13,12,Controle,Pós,2556,73,17145.94,0
+103,4,CRM Reativação,20251110,6,13,3,Teste,Pós,2534,89,19820.1,6873.13
+104,4,CRM Reativação,20251110,6,13,12,Controle,Pós,2462,79,19545.81,0
+105,4,CRM Reativação,20251117,6,13,3,Teste,Pós,2117,76,18149.77,5656.14
+106,4,CRM Reativação,20251117,6,13,12,Controle,Pós,2573,84,18930.15,0
+107,4,CRM Reativação,20251124,6,13,3,Teste,Pós,2115,78,19733.78,5554.4
+108,4,CRM Reativação,20251124,6,13,12,Controle,Pós,2233,66,15798.73,0

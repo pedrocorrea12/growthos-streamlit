@@ -1,0 +1,13 @@
+region_id,state_code,state,macro_region,market_type,weight
+1,SP,São Paulo,Sudeste,Capital e RM,0.3
+2,RJ,Rio de Janeiro,Sudeste,Capital e RM,0.12
+3,MG,Minas Gerais,Sudeste,Interior,0.11
+4,PR,Paraná,Sul,Capital e interior,0.08
+5,SC,Santa Catarina,Sul,Capital e interior,0.07
+6,RS,Rio Grande do Sul,Sul,Capital e interior,0.07
+7,BA,Bahia,Nordeste,Capital e RM,0.06
+8,PE,Pernambuco,Nordeste,Capital e RM,0.05
+9,CE,Ceará,Nordeste,Capital e RM,0.04
+10,GO,Goiás,Centro-Oeste,Capital e interior,0.04
+11,DF,Distrito Federal,Centro-Oeste,Capital,0.03
+12,ES,Espírito Santo,Sudeste,Capital e interior,0.03

@@ -1,0 +1,9 @@
+channel_id,channel,channel_group,media_type,funnel_stage,base_cpm,base_ctr,base_cvr,base_daily_spend
+1,Google Ads,Paid Search,Pago,Conversão,42,0.045,0.034,175
+2,Meta Ads,Paid Social,Pago,Consideração,24,0.018,0.022,145
+3,TikTok Ads,Paid Social,Pago,Descoberta,18,0.014,0.014,95
+4,YouTube,Vídeo,Pago,Awareness,16,0.009,0.009,110
+5,Afiliados,Affiliate,Pago,Conversão,32,0.026,0.031,65
+6,CRM,Owned,Próprio,Retenção,3,0.062,0.046,18
+7,Busca Orgânica,Organic,Orgânico,Conversão,0,0.071,0.037,0
+8,Retail Media,Commerce Media,Pago,Conversão,36,0.033,0.041,125

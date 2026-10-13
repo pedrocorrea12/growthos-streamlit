@@ -1,0 +1,49 @@
+product_id,sku,product_name,category,subcategory,brand,list_price,unit_cost,launch_date,active_flag
+1,SKU-0001,Skincare 01,Beleza,Skincare,Aurora,79,35.55,2023-01-14,1
+2,SKU-0002,Skincare 02,Beleza,Skincare,Viva,91.52,41.18,2022-12-03,1
+3,SKU-0003,Skincare 03,Beleza,Skincare,Norte,106.49,47.92,2022-12-26,1
+4,SKU-0004,Skincare 04,Beleza,Skincare,Viva,117.53,52.89,2022-07-21,1
+5,SKU-0005,Cabelos 01,Beleza,Cabelos,Aurora,77.18,34.73,2023-03-24,1
+6,SKU-0006,Cabelos 02,Beleza,Cabelos,Viva,86.67,39,2023-03-14,1
+7,SKU-0007,Cabelos 03,Beleza,Cabelos,Norte,104.6,47.07,2023-11-02,1
+8,SKU-0008,Cabelos 04,Beleza,Cabelos,Viva,115.24,51.86,2023-12-06,1
+9,SKU-0009,Organização 01,Casa,Organização,Aurora,107.77,56.04,2022-07-28,1
+10,SKU-0010,Organização 02,Casa,Organização,Viva,136.23,70.84,2023-06-27,1
+11,SKU-0011,Organização 03,Casa,Organização,Norte,155.09,80.65,2023-10-01,1
+12,SKU-0012,Organização 04,Casa,Organização,Viva,168.38,87.56,2023-11-06,1
+13,SKU-0013,Cozinha 01,Casa,Cozinha,Aurora,112.8,58.66,2022-07-11,1
+14,SKU-0014,Cozinha 02,Casa,Cozinha,Viva,132.38,68.84,2023-09-22,1
+15,SKU-0015,Cozinha 03,Casa,Cozinha,Norte,156.64,81.45,2023-05-19,1
+16,SKU-0016,Cozinha 04,Casa,Cozinha,Viva,170.84,88.84,2022-10-28,1
+17,SKU-0017,Acessórios 01,Fitness,Acessórios,Aurora,142.61,71.31,2023-07-10,1
+18,SKU-0018,Acessórios 02,Fitness,Acessórios,Viva,162.02,81.01,2022-11-03,1
+19,SKU-0019,Acessórios 03,Fitness,Acessórios,Norte,187.9,93.95,2023-10-07,1
+20,SKU-0020,Acessórios 04,Fitness,Acessórios,Viva,208.89,104.44,2023-08-22,1
+21,SKU-0021,Recovery 01,Fitness,Recovery,Aurora,135.22,67.61,2022-10-06,1
+22,SKU-0022,Recovery 02,Fitness,Recovery,Viva,158.37,79.19,2023-06-29,1
+23,SKU-0023,Recovery 03,Fitness,Recovery,Norte,178.73,89.36,2023-11-15,1
+24,SKU-0024,Recovery 04,Fitness,Recovery,Viva,212.97,106.48,2022-10-18,1
+25,SKU-0025,Áudio 01,Eletrônicos,Áudio,Aurora,196.26,125.61,2023-12-10,1
+26,SKU-0026,Áudio 02,Eletrônicos,Áudio,Viva,216.49,138.55,2022-12-28,1
+27,SKU-0027,Áudio 03,Eletrônicos,Áudio,Norte,248.29,158.91,2023-12-30,1
+28,SKU-0028,Áudio 04,Eletrônicos,Áudio,Viva,289.95,185.57,2023-08-05,1
+29,SKU-0029,Acessórios mobile 01,Eletrônicos,Acessórios mobile,Aurora,193.21,123.65,2022-11-15,1
+30,SKU-0030,Acessórios mobile 02,Eletrônicos,Acessórios mobile,Viva,212.81,136.2,2023-08-26,1
+31,SKU-0031,Acessórios mobile 03,Eletrônicos,Acessórios mobile,Norte,249.26,159.53,2022-07-17,1
+32,SKU-0032,Acessórios mobile 04,Eletrônicos,Acessórios mobile,Viva,303.04,193.95,2022-09-23,1
+33,SKU-0033,Essenciais 01,Moda,Essenciais,Aurora,125.28,60.13,2023-07-17,1
+34,SKU-0034,Essenciais 02,Moda,Essenciais,Viva,149.31,71.67,2022-07-27,1
+35,SKU-0035,Essenciais 03,Moda,Essenciais,Norte,180.09,86.44,2023-01-24,1
+36,SKU-0036,Essenciais 04,Moda,Essenciais,Viva,195.66,93.92,2023-05-01,1
+37,SKU-0037,Athleisure 01,Moda,Athleisure,Aurora,126.71,60.82,2023-04-09,1
+38,SKU-0038,Athleisure 02,Moda,Athleisure,Viva,151.71,72.82,2023-05-19,1
+39,SKU-0039,Athleisure 03,Moda,Athleisure,Norte,176.09,84.52,2023-12-30,1
+40,SKU-0040,Athleisure 04,Moda,Athleisure,Viva,190.61,91.49,2023-03-04,1
+41,SKU-0041,Bem-estar 01,Pet,Bem-estar,Aurora,65.3,33.3,2023-12-04,1
+42,SKU-0042,Bem-estar 02,Pet,Bem-estar,Viva,77.8,39.68,2022-08-30,1
+43,SKU-0043,Bem-estar 03,Pet,Bem-estar,Norte,95.67,48.79,2023-07-31,1
+44,SKU-0044,Bem-estar 04,Pet,Bem-estar,Viva,106.36,54.24,2022-09-02,1
+45,SKU-0045,Acessórios 01,Pet,Acessórios,Aurora,68.01,34.69,2023-10-26,1
+46,SKU-0046,Acessórios 02,Pet,Acessórios,Viva,80.03,40.82,2023-05-20,1
+47,SKU-0047,Acessórios 03,Pet,Acessórios,Norte,91.08,46.45,2023-07-12,1
+48,SKU-0048,Acessórios 04,Pet,Acessórios,Viva,104.9,53.5,2023-06-08,1
