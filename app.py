@@ -10,6 +10,7 @@ import streamlit as st
 DATA = Path(__file__).parent / "data"
 GOOD, BAD, MUTED = "#4ADE80", "#F87171", "#8a8a8a"
 COLORS = ["#e6e6e6", "#4ea1d3", "#d98c4a", "#6fbf8b", "#c76f8f", "#8c8cc7", "#b0b0b0", "#7d7d7d"]
+MONTHS_PT = ("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
 
 st.set_page_config(page_title="GrowthOS | Marketing Analytics", layout="wide")
 st.markdown(
@@ -73,6 +74,19 @@ def style(fig, h=300, legend=True):
     )
     fig.update_xaxes(gridcolor="#1f1f1f", zeroline=False)
     fig.update_yaxes(gridcolor="#1f1f1f", zeroline=False)
+    return fig
+
+
+def month_axis(fig, values):
+    """Exibe somente mês/ano em eixos mensais, inclusive quando há um único ponto."""
+    months = pd.DatetimeIndex(pd.to_datetime(values)).dropna().drop_duplicates().sort_values()
+    fig.update_xaxes(
+        type="date",
+        tickmode="array",
+        tickvals=months.tolist(),
+        ticktext=[f"{MONTHS_PT[d.month - 1]}/{d:%y}" for d in months],
+        hoverformat="%m/%Y",
+    )
     return fig
 
 
@@ -181,6 +195,7 @@ with t1:
         f.add_scatter(x=mo.index, y=mo.roas, name="ROAS (eixo direito)", yaxis="y2", mode="lines+markers",
                       line=dict(color="#fff", width=2), marker=dict(size=5))
         f.update_layout(barmode="group", yaxis=dict(title="R$"), yaxis2=dict(title="ROAS (x)", overlaying="y", side="right", showgrid=False))
+        month_axis(f, mo.index)
         st.plotly_chart(style(f, 310), width="stretch")
     with b:
         st.markdown("### Realizado vs. meta de receita")
@@ -192,6 +207,7 @@ with t1:
         f = go.Figure()
         f.add_scatter(x=cmp_.index, y=cmp_.Meta, name="Meta", line=dict(color=MUTED, dash="dot"))
         f.add_scatter(x=cmp_.index, y=cmp_.Realizado, name="Realizado", line=dict(color="#fff", width=2), fill="tonexty", fillcolor="rgba(255,255,255,.06)")
+        month_axis(f, cmp_.index)
         st.plotly_chart(style(f, 260), width="stretch")
         st.caption(f"Atingimento da meta no período: **{pct(att)}**")
 
@@ -271,6 +287,7 @@ with t2:
         st.markdown("### Mix de receita por canal")
         mix = o.groupby([o.date.dt.to_period("M").dt.to_timestamp().rename("mes"), "channel"]).net_revenue.sum().reset_index()
         f = px.area(mix, x="mes", y="net_revenue", color="channel", labels={"net_revenue": "Receita", "mes": "", "channel": ""})
+        month_axis(f, mix.mes)
         st.plotly_chart(style(f, 320), width="stretch")
 
 # ================= CLIENTES =================
@@ -304,6 +321,7 @@ with t3:
         nr = o.assign(tipo=np.where(o.new_customer_flag == 1, "Novos", "Recorrentes")).groupby(
             [o.date.dt.to_period("M").dt.to_timestamp().rename("mes"), "tipo"]).net_revenue.sum().reset_index()
         f = px.bar(nr, x="mes", y="net_revenue", color="tipo", color_discrete_map={"Novos": COLORS[1], "Recorrentes": "#e6e6e6"}, labels={"net_revenue": "Receita", "mes": "", "tipo": ""})
+        month_axis(f, nr.mes)
         st.plotly_chart(style(f, 230), width="stretch")
         st.markdown("### Receita por cliente (vida inteira) por canal de aquisição")
         ltv = cs.merge(D["ch"][["channel_id", "channel"]], left_on="acquisition_channel_id", right_on="channel_id").groupby("channel").net_revenue_lifetime.mean().sort_values()
